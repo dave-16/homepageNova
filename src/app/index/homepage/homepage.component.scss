@@ -814,6 +814,7 @@
     display: none;
   }
 }
+
 .blog_frame_collapsible {
   width: 320px;
   height: 70px;
@@ -827,4 +828,32 @@
 }
 .navbar>.container {
   justify-content: center !important;
+}
+
+@media (max-width:800px){
+  .d-bl{
+    
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+@media (max-width:480px){
+ .bigger_btn
+ {
+   font-size:2rem !important;
+ }
+ .subscribe
+ {
+   min-width: 0px !important;
+   flex-direction: column !important;
+ }
+ iframe
+ {
+   width: 116% !important;
+ }
+ .embed-page .substack-watermark
+ {
+  right:0px !important;
+  left:0px !important;
+ }
 }
